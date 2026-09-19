@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>Chat app css and react</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">      
+      @theme {
+        --font-sans: "Rubik", sans-serif;
+        --color-white: #fff;
+        --color-black:#000;
+        --color-gray-500:#A39DA9;      
+        --color-gray-300:#C5C9CC;      
+        --color-gray-100:#F5F3F7;      
+        --color-gray-50:#FAFAFA;      
+        --color-purple-950:#3E2753;      
+        --color-purple-600:#9341C8;      
+        --color-purple-300:#D99EFF;      
+        --color-purple-50:#EEE5F4;
+        --color-pink-400:#E472FF;      
+        --background-image-gradient-1: linear-gradient(84deg, #8739FF 0%, #E844FF 100%)
+      }
+
+      @utility preset-1{
+        @apply font-medium text-[2.5rem] leading-[120%];
+      }
+
+      @utility preset-2{
+        @apply font-normal text-base leading-[175%];
+      }
+
+      @utility preset-3{
+        @apply font-bold text-xs leading-[120%];
+
+      }
+
+      @utility preset-4{
+        @apply font-medium text-[0.6875rem] leading-[120%];
+
+      }
+
+      @utility preset-5{
+        @apply font-normal text-[0.5rem] leading-[120%];
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root" class="bg-black"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
