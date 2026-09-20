@@ -2,56 +2,63 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Chat app css and react</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <style type="text/tailwindcss">      
+    <style type="text/tailwindcss">
       @theme {
         --font-sans: "Rubik", sans-serif;
         --color-white: #fff;
-        --color-black:#000;
-        --color-gray-500:#A39DA9;      
-        --color-gray-300:#C5C9CC;      
-        --color-gray-100:#F5F3F7;      
-        --color-gray-50:#FAFAFA;      
-        --color-purple-950:#3E2753;      
-        --color-purple-600:#9341C8;      
-        --color-purple-300:#D99EFF;      
-        --color-purple-50:#EEE5F4;
-        --color-pink-400:#E472FF;      
-        --background-image-gradient-1: linear-gradient(15deg, #8739FF 0%, #E844FF 100%);
-        --shadow-phone: 0 30px 60px -10px #3E275340;
+        --color-black: #000;
+        --color-gray-500: #a39da9;
+        --color-gray-300: #c5c9cc;
+        --color-gray-100: #f5f3f7;
+        --color-gray-50: #fafafa;
+        --color-purple-950: #3e2753;
+        --color-purple-600: #9341c8;
+        --color-purple-300: #d99eff;
+        --color-purple-50: #eee5f4;
+        --color-pink-400: #e472ff;
+        --background-image-gradient-1: linear-gradient(
+          15deg,
+          #8739ff 0%,
+          #e844ff 100%
+        );
+        --shadow-phone: 0 30px 60px -10px #3e275340;
       }
 
-      @utility preset-1{
+      @utility preset-1 {
         @apply font-medium text-[2.5rem] leading-[120%];
       }
 
-      @utility preset-2{
+      @utility preset-2 {
         @apply font-normal text-base leading-[175%];
       }
 
-      @utility preset-3{
+      @utility preset-3 {
         @apply font-bold text-xs leading-[120%];
-
       }
 
-      @utility preset-4{
+      @utility preset-4 {
         @apply font-medium text-[0.6875rem] leading-[120%];
-
       }
 
-      @utility preset-5{
+      @utility preset-5 {
         @apply font-normal text-[0.5rem] leading-[120%];
       }
     </style>
   </head>
   <body class="min-h-screen relative">
-    <div id="root" class="overflow-hidden bg-gray-50 flex justify-center items-center w-full h-full"></div>
+    <div
+      id="root"
+      class="overflow-hidden bg-gray-50 flex justify-center items-center w-full h-full"
+    ></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

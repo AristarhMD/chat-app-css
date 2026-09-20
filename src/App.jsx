@@ -1,6 +1,6 @@
 function App() {
   return (
-    <main className="relative flex items-center justify-center flex-col xl:flex-row gap-16 xl:gap-30 py-16">
+    <main className="h-full relative flex items-center justify-center flex-col xl:flex-row gap-16 xl:gap-30 py-16">
       <span className="w-127.5 h-254.5 rounded-full absolute bg-gradient-1 bottom-1/2 xl:bottom-[12.5%] -left-[85%] md:-left-[65%] xl:-left-[55%]"></span>
       <span className="w-127.5 h-254.5 rounded-full absolute bg-gradient-1 opacity-3 top-1/2 xl:top-[12.5%] -right-[83%] md:-right-[64%]"></span>
       <section className="mx-auto shadow-phone relative w-61.75 bg-white rounded-[30px] px-[9.5px] py-2.75">
