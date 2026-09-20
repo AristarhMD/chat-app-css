@@ -1,6 +1,8 @@
 function App() {
   return (
-    <main className="flex items-center justify-center flex-col xl:flex-row gap-16 xl:gap-30 py-16">
+    <main className="relative flex items-center justify-center flex-col xl:flex-row gap-16 xl:gap-30 py-16">
+      <span className="w-127.5 h-254.5 rounded-full absolute bg-gradient-1 bottom-1/2 xl:bottom-[12.5%] -left-[85%] md:-left-[65%] xl:-left-[55%]"></span>
+      <span className="w-127.5 h-254.5 rounded-full absolute bg-gradient-1 opacity-3 top-1/2 xl:top-[12.5%] -right-[83%] md:-right-[64%]"></span>
       <section className="mx-auto shadow-phone relative w-61.75 bg-white rounded-[30px] px-[9.5px] py-2.75">
         <div className="absolute top-0 right-1/2 translate-x-1/2 w-32.25 h-7.25 bg-white rounded-b-[14px]"></div>
 
@@ -22,7 +24,7 @@ function App() {
 
               <img
                 className="rounded-full size-6 ring ring-white"
-                src="/src/images/avatar.jpg"
+                src="./images/avatar.jpg"
               />
 
               <div className="flex flex-col">
@@ -52,17 +54,17 @@ function App() {
               <div className="flex items-center justify-between">
                 <img
                   className="size-10 rounded-[10px]"
-                  src="/src/images/dog-image-1.jpg"
+                  src="./images/dog-image-1.jpg"
                   alt="Image of the dog"
                 />
                 <img
                   className="size-10 rounded-[10px]"
-                  src="/src/images/dog-image-2.jpg"
+                  src="./images/dog-image-2.jpg"
                   alt="Image of the dog"
                 />
                 <img
                   className="size-10 rounded-[10px]"
-                  src="/src/images/dog-image-3.jpg"
+                  src="./images/dog-image-3.jpg"
                   alt="Image of the dog"
                 />
               </div>
@@ -76,8 +78,8 @@ function App() {
 
             <div className="preset-5 text-purple-600 mb-2">
               <p className="rounded-lg rounded-bl-sm w-32 bg-purple-50 p-2 flex items-center justify-center">
-                She looks so happy! The time we discussed works. How long shall I
-                take her out for?
+                She looks so happy! The time we discussed works. How long shall
+                I take her out for?
               </p>
             </div>
 
@@ -114,9 +116,14 @@ function App() {
         </div>
       </section>
 
-      <section className="mx-auto min-w-78 w-[75%] md:w-111 max-w-111 text-center xl:text-left">
+      <section className="z-1 mx-auto min-w-78 w-[75%] md:w-111 max-w-111 text-center xl:text-left">
         <h1 className="preset-1 text-purple-950 mb-6">Simple booking</h1>
-        <p className="preset-2 text-gray-500">Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
+        <p className="preset-2 text-gray-500">
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
       </section>
     </main>
   );
